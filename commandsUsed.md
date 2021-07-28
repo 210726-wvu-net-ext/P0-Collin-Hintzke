@@ -6,6 +6,8 @@ code commandsUsed.md
 
 touch Hello.sh
 code Hello.sh
+sh Hello.sh
+git status
 git add .
 git commit -m 'Added commandsUsed & Hello.sh'
 git push
