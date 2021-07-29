@@ -7,19 +7,18 @@ echo "$num is odd"
 fi
 
 read -p "Now please enter the score of the test 0-100  " score
-if (( $score < 41 ))
+if (( $score < 40 ))
 then
-echo "Your score is an F"
-elif (( $score > 40 && $score < 51 ))
+    echo "F"
+elif (( $score < 50 ))
 then
-echo "Your score is a D"
-elif (( $score > 50 && $score < 61 ))
+    echo "D"
+elif (( $score < 60 ))
 then
-echo "Your score is a C"
-elif (( $score > 60 && $score < 71 ))
-then
-echo "Your score is a B"
-elif (( $score > 70 ))
-then
-echo "Your score is an A"
+    echo "C"
+elif (( $score < 70 ))
+then 
+    echo "B"
+else
+    echo "A"
 fi
