@@ -120,7 +120,7 @@ namespace App
                 Console.WriteLine(rate.Comment);
             }
 
-            Start();
+            
         }
         
         public void End()
