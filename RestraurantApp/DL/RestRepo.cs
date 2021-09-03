@@ -56,7 +56,7 @@ namespace DL
                         Pass = newPass
                     }
                     );
-                
+            
             _context.SaveChanges();
             return new Models.User(newUser, newPass);
         }

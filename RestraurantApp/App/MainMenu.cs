@@ -12,7 +12,7 @@ namespace App
     {
         
         private IRestBL _restbl;
-        public User user = new User();
+        private User user = new User();
         public MainMenu(IRestBL bl)
         {
             _restbl = bl;
@@ -120,7 +120,7 @@ namespace App
                 Console.WriteLine(rate.Comment);
             }
 
-            Start();
+            
         }
         
         public void End()
